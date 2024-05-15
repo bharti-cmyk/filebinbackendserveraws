@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', routes);
 
 app.listen(9000, () => {
-  console.log('Example app listening on port 3000!');
+  console.log('Example app listening on port 9000!');
 });
 
 // export const handler = serverless(app);
